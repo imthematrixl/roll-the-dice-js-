@@ -1,0 +1,36 @@
+body{
+    text-align: center;
+    transform: translateY(220px);
+    background-color: rgb(255, 255, 255);
+    transition: 0.5s;
+}
+body:hover{
+    background-color: blueviolet;
+}
+#btn{
+    font-size: 64px;
+    color: rgb(255, 177, 190);
+    background-color: rgb(247, 93, 119);
+    border-radius: 10px;
+    scale: 1;
+    filter: drop-shadow(0px 0px 15px rgb(255, 255, 255));
+    transition: 0.6s ;
+    cursor: pointer;
+    
+}
+#btn:hover{
+    scale: 1.1;
+    background-color: rgb(0, 0, 0);
+    filter: drop-shadow(0 px 0px 15px rgb(255, 0, 200));
+}
+#Lb{
+
+    font-size: 5em;
+    color: rgb(0, 0, 0);
+    text-decoration: double;
+    transition: all 0.5s;
+}
+
+#Lb:hover{
+    color: white;
+}
